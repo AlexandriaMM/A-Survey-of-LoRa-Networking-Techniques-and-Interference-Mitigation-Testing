@@ -8,12 +8,81 @@
 
 
 
-@article{hopper:compilers101,
-	Author = {Grace Hopper},
-	Date-Modified = {2020-08-26 10:47:06 -0400},
-	Journal = {BW Transactions on Computing},
-	Number = {12},
-	Pages = {101-184},
-	Title = {How to Build a Compiler},
-	Volume = {1},
-	Year = {1952}}
+
+@misc{loraLoRax2014,
+	author = {},
+	title = {LoRa 2014; LoRa documentation --- lora.readthedocs.io},
+	howpublished = {https://lora.readthedocs.io/en/latest/\#lora},
+	year = {},
+	note = {[Accessed 23-10-2023]},
+}
+@article{li2022lora,
+  title={Lora networking techniques for large-scale and long-term iot: A down-to-top survey},
+  author={Li, Chenning and Cao, Zhichao},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={55},
+  number={3},
+  pages={1--36},
+  year={2022},
+  publisher={ACM New York, NY}
+}
+@article{sun2022recent,
+  title={Recent advances in LoRa: A comprehensive survey},
+  author={Sun, Zehua and Yang, Huanqi and Liu, Kai and Yin, Zhimeng and Li, Zhenjiang and Xu, Weitao},
+  journal={ACM Transactions on Sensor Networks},
+  volume={18},
+  number={4},
+  pages={1--44},
+  year={2022},
+  publisher={ACM New York, NY}
+}
+@article{anzum2021factors,
+  title={Factors that affect LoRa propagation in foliage medium},
+  author={Anzum, Rabeya},
+  journal={Procedia Computer Science},
+  volume={194},
+  pages={149--155},
+  year={2021},
+  publisher={Elsevier}
+}
+@inproceedings{10.1145/3576842.3582327,
+author = {Rahman, Mahbubur and Saifullah, Abusayeed},
+title = {Boosting Reliability and Energy-Efficiency in Indoor LoRa},
+year = {2023},
+isbn = {9798400700378},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3576842.3582327},
+doi = {10.1145/3576842.3582327},
+abstract = {LoRa (Long Range) is a promising communication technology for enabling the next-generation indoor Internet of Things applications. Very few studies, however, have analyzed its performance indoors. Besides, these indoor studies investigate mostly the RSSI (received signal strength indicator) and SNR (signal-to-noise ratio) of the received packets at the gateway, which, as we show, may not unfold the poor performance of LoRa and its MAC (medium access control) protocol – LoRaWAN – indoors in terms of reliability and energy-efficiency. In this paper, we evaluate the performance of LoRaWAN and use its key insights to boost the reliability and energy-efficiency in indoor environments by proposing LoRaIN (LoRa Indoor Network), a new link-layer protocol that can be effectively used for indoor deployments. The approach to boosting the reliability and energy-efficiency in LoRaIN is underpinned by enabling constructive interference with specific timing requirements for different pairs of channel bandwidth and spreading factor and relaying precious acknowledgments to the end-devices with the assistance of several booster nodes. The booster nodes do not need any special capability and can be a subset of the LoRa end-devices. To our knowledge, LoRaIN is the first protocol for boosting reliability and energy-efficiency in indoor LoRa networks. We evaluate its performance in an indoor testbed consisting of one LoRaWAN gateway and 20 LoRaWAN end-devices. Our extensive evaluation shows that when 15\% of the end-devices operate as booster nodes, the reliability at the gateway increases from 62\% to 95\%, and the end-devices are approximately 2.5x energy-efficient.},
+booktitle = {Proceedings of the 8th ACM/IEEE Conference on Internet of Things Design and Implementation},
+pages = {396–409},
+numpages = {14},
+keywords = {LoRaWAN, constructive interference, indoor LoRa, LPWAN},
+location = {San Antonio, TX, USA},
+series = {IoTDI '23}
+}
+@inproceedings{10.1145/3384419.3430731,
+author = {Xie, Binbin and Xiong, Jie},
+title = {Combating Interference for Long Range LoRa Sensing},
+year = {2020},
+isbn = {9781450375900},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3384419.3430731},
+doi = {10.1145/3384419.3430731},
+abstract = {Wireless sensing has become a hot research topic recently, enabling a large range of applications. However, due to the intrinsic nature of employing weak target-reflection signal for sensing, the sensing range is limited. Another issue is the strong interference from surroundings and therefore a lot of wireless sensing systems assume there is no interferer in the environment. One recent work explored the possibility of employing LoRa signal for long range sensing which is a favorable step in addressing the first issue. However, the interference issue becomes even more severe with LoRa due to its larger sensing range. In this paper, we propose Sen-fence - a LoRa-based sensing system - to significantly increase the sensing range and at the same time mitigate the interference. With careful signal processing, Sen-fence is able to maximize the movement-induced signal variation in software to increase the sensing range. To address the interference issue, we propose the concept of "virtual fence" to constrain sensing only within the area of interest. The location and size of virtual fence can be flexibly controlled in software to meet the requirements of different applications. Sen-fence is able to (i) achieve a 50 m sensing range for fine-grained human respiration, which is twice the state-of-the-art; and (ii) efficiently mitigate the interference to make LoRa sensing work in practice.},
+booktitle = {Proceedings of the 18th Conference on Embedded Networked Sensor Systems},
+pages = {69–81},
+numpages = {13},
+keywords = {virtual fence, long sensing range, LoRa sensing, interference},
+location = {Virtual Event, Japan},
+series = {SenSys '20}
+}
+@inproceedings{du2023srlora,
+  title={SRLoRa: Neural-enhanced LoRa Weak Signal Decoding with Multi-gateway Super Resolution},
+  author={Du, Jialuo and Ren, Yidong and Zhu, Zhui and Li, Chenning and Cao, Zhichao and Ma, Qiang and Liu, Yunhao},
+  booktitle={Proceedings of the Twenty-fourth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
+  pages={270--279},
+  year={2023}
+}
